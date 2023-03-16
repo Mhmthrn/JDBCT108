@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.791">
+    <testcase classname="US1001 DB de bulunan jtable bilgilerini getirme" name="TC0101 istenilen tablerdan istenilen data bilgileri yazdirilir" time="1.569">
+        <system-out>
+            <![CDATA[Given DB ile connection saglanir............................................passed
+Then Database "seller_products" tablosundaki "discount_type" degeri  "1" olan tüm product'lari listeler.passed
+Then Listelenen toplam urun sayisinin 50 den dusuk oldugunu test eder "slug" yazdirir.passed
+And DB ile connection kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
